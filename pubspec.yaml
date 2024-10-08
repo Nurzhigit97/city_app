@@ -40,7 +40,10 @@ dependencies:
   dio: ^5.7.0
   freezed_annotation: ^2.4.4
   json_annotation: ^4.9.0
+  shared_preferences: ^2.3.2
   riverpod: ^2.5.1
+  connectivity_plus: ^6.0.5
+  get_it: ^8.0.0
 
 dev_dependencies:
   flutter_test:
