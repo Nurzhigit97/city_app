@@ -47,8 +47,8 @@ class CitySearchDelegate extends SearchDelegate<String> {
               return ListTile(
                 title: Text(city.name),
                 onTap: () {
-                  query = city.name; // Устанавливаем текст в поисковую строку
-                  showResults(context); // Показать результаты
+                  query = city.name;
+                  showResults(context);
                 },
               );
             },
