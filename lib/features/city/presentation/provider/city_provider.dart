@@ -1,7 +1,7 @@
 // lib/features/city/presentation/provider/city_provider.dart
 
 import 'package:city_app/features/city/domain/usecases/get_cities.dart';
-import 'package:city_app/features/city/presentation/provider/state/city_state.dart';
+import 'package:city_app/features/city/presentation/provider/city_state.dart';
 import 'package:get_it/get_it.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
