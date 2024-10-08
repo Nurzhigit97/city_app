@@ -7,6 +7,7 @@ part 'city_model.g.dart';
 class CityModel with _$CityModel {
   const factory CityModel({
     required String name,
+    required String slug,
   }) = _CityModel;
 
   factory CityModel.fromJson(Map<String, dynamic> json) =>
